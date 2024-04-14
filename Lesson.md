@@ -16,6 +16,18 @@ print(square_root)
 Today, we're going to look at what the `-> type` does and what the `return` statement is.
 
 ## `return` Statement
+### Syntax
+```python
+def function_name(param1: type) -> type:
+  # function stuff here
+  return <value>
+```
+<span style="color:red">
+<b>NOTICE: There are no brackets after return, unline print statements.</b>
+</span>
+
+#### Things to keep in mind:
+* `return` statements can only be used inside functions
 * Indicates the value that the function returns
 * Used to exit a function and return a value that can be assigned to a variable
 * Can have multiple return statements but only one value can be returned at a time
@@ -37,7 +49,7 @@ When designing functions, the best functions (aka pure functions) have the follo
 * Returns a value
 * No print or input
 
-## Example
+## Example #1: Area of Rectangle
 Let's look at the example from Lesson 5.1 where we created a function that prints the area of a rectangle with parameters `length` and `width`. Instead of printing the area, let's have the function return the value instead and specify what the retun value should be. Then, we'll put it into use.
 ### Part (a) Create a function that will return the area of a rectangle.
 
@@ -61,3 +73,25 @@ With return values and return type:
 <span style="color:red">
 <b>NOTE: calling a function with a return value will not print</b>
 </span>
+
+## Example #2 (Functions Calling Functions)
+In this example, we will:
+- [ ] (a) Create a function for the volume of a rectangular prism
+- [ ] (b) Create a function for the volume of triangular prism
+- [ ] (c) Create a function for the volume of a basic house (rectangular prism + traingular prism)
+### Part (a) Create a function that will return the volume of a rectangular prism
+```python
+
+```
+
+### Part (b) Create a function that will return the volume of a triangular prism
+```python
+
+```
+
+### Part (c) Create a function that will return the volume of a basic house
+```python
+
+```
+
+### Part (d) Use your function by calling it
